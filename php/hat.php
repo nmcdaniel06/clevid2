@@ -64,7 +64,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 <div class="container">
 
-    <div class="page-header">
+
 
       <nav class="navbar navbar-default navbar-fixed-top">
         <ul class="nav navbar-nav">
@@ -77,18 +77,16 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 <div class="row">
 
-  <div class="col-md-4">
+  <div class="col-md-4 col-md-offset-4">
       <img src="pics/logo.png" alt="clevid logo">
   </div><!--endCol--------------------------->
-  <div class="col-md-8"><?php echo $result; ?>
-    <h1>Web Design and Developement</h1>
-    <h2>Clever Ideas for your personal and Business Growth</h2>
-  </div><!--endCol---------------------------->
-</div><!--endRow------------------------------>
+	</div><!--endRow------------------------------>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3"><?php echo $result; ?>
+	    <p id="tline">Clever Ideas for Your Personal and Business Growth</p>
+	  </div><!--endCol---------------------------->
+	</div><!--endRow------------------------------>
 
 
-
-
-    </div>
 
     <!-------------END---Navbar------------->
