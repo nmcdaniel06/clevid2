@@ -1,0 +1,13 @@
+body {
+  margin-top: 40px;
+}
+h2.stitle {
+  text-align: center;
+}
+
+.boot {
+  background-color: gray;
+  margin-top: 75px;
+  margin-bottom: 0;
+  padding: 100px;
+}
