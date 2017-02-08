@@ -1,5 +1,6 @@
 body {
   margin-top: 70px;
+  font-family: 'Nunito Sans', sans-serif;
 /*  background-color: #191919;*/
 }
 h2.stitle {
@@ -59,8 +60,13 @@ p {
   text-align: center;
 }
 #tline {
-
-  /*text-align: center;*/
-  color: #f47b1a;
+  color: #050a3d;
   font-size: 1.5em;
+}
+b {
+  color:#f47b1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cabin', sans-serif;
 }
