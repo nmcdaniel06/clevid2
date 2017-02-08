@@ -75,17 +75,21 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         </ul>
       </nav>
 
-<div class="row">
-
-  <div class="col-md-4 col-md-offset-4">
-      <img src="pics/logo.png" alt="clevid logo">
-  </div><!--endCol--------------------------->
-	</div><!--endRow------------------------------>
+<div class="hat">
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3"><?php echo $result; ?>
-	    <p id="tline">Clever Ideas for Your Personal and Business Growth</p>
-	  </div><!--endCol---------------------------->
-	</div><!--endRow------------------------------>
+
+	  <div class="col-md-4 col-md-offset-4">
+	      <img src="pics/logo.png" alt="clevid logo">
+	  </div><!--endCol--------------------------->
+		</div><!--endRow------------------------------>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3"><?php echo $result; ?>
+		    <p id="tline"><b><em>Clever Ideas</em></b> for Your Personal and Business Growth</p>
+		  </div><!--endCol---------------------------->
+		</div><!--endRow------------------------------>
+</div>
+
+
 
 
 
