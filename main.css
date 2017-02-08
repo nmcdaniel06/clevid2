@@ -59,11 +59,8 @@ p {
   text-align: center;
 }
 #tline {
-  /*border-top: 3px solid rgba(5,10,61,.75);*/
-  text-align: center;
+
+  /*text-align: center;*/
   color: #f47b1a;
   font-size: 1.5em;
-}
-div.hat {
-
 }

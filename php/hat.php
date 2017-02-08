@@ -66,24 +66,38 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
 
 
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+
+			    </div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
       </nav>
 
 <div class="hat">
 	<div class="row">
 
-	  <div class="col-md-4 col-md-offset-4">
+	  <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8">
 	      <img src="pics/logo.png" alt="clevid logo">
 	  </div><!--endCol--------------------------->
 		</div><!--endRow------------------------------>
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3"><?php echo $result; ?>
+			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12"><?php echo $result; ?>
 		    <p id="tline"><b><em>Clever Ideas</em></b> for Your Personal and Business Growth</p>
 		  </div><!--endCol---------------------------->
 		</div><!--endRow------------------------------>
