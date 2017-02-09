@@ -29,10 +29,9 @@ h2.stitle2 {
 }
 
 .boot {
-  background-color: gray;
-  margin-top: 75px;
-  margin-bottom: 0;
-  padding: 100px;
+  background-color: #101010;
+  padding-top: 1em;
+
 }
 h1 span {
   font-size: .65em;
@@ -41,10 +40,7 @@ h3.stitle {
   text-align: center;
 
 }
-.page-header {
-  border-bottom: 3px solid rgba(5,10,61,.75);
-  background-color: #fff;
-}
+
 
 
 
@@ -65,4 +61,16 @@ b {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cabin', sans-serif;
+}
+div.boot p {
+  text-align: center;
+  padding: 0;
+  color: #9d9d9d;
+}
+div.boot p a {
+  color: #9d9d9d;
+}
+a.con {
+  font-size: 1.5em;
+  color: inherit;
 }

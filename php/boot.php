@@ -1,8 +1,21 @@
-</div><!----------End----Container-------------->
-
-<div class="page-header boot">
+<div class="row boot">
+  <div class="col-md-4 ctitle">
+    <p>Phone:
+    <a href="tel:8325343611">832-534-3611</a></p>
+  </div>
+  <div class="col-md-4 ctitle">
+    <p>&copy; Clevid 2017</p>
+  </div>
+  <div class="col-md-4 ctitle">
+    <p>Email:
+    <a href="mailto:info@clevid.com">info@clevid.com</a></p>
+  </div>
 
 </div>
+
+</div><!----------End----Container-------------->
+
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
